@@ -1,0 +1,10833 @@
+{
+ "format": "chess-world",
+ "version": 1,
+ "meta": {
+  "label": "rated bullet game",
+  "white": "mannyfresher",
+  "black": "mateito_fullhouse",
+  "result": "1-0",
+  "hero": "w",
+  "plies": 31,
+  "generator": "Maestro core.js"
+ },
+ "files": "abcdefgh",
+ "note": "height[rankIndex 0..7][fileIndex 0..7]; rankIndex0=rank1, fileIndex0=file a. height<0 = water depth, >0 = land elevation. placement maps square -> piece id; pieces[] gives identity/team.",
+ "legend": {
+  "roles": [
+   "attacker",
+   "defender",
+   "controller",
+   "outpost",
+   "runner",
+   "tactic",
+   "noise"
+  ],
+  "water": [
+   "pond",
+   "creek",
+   "river",
+   "lake",
+   "sea",
+   "ocean"
+  ],
+  "elevation": [
+   "grass",
+   "meadow",
+   "tan",
+   "hills",
+   "brown",
+   "rock",
+   "alpine",
+   "snow"
+  ]
+ },
+ "pieces": [
+  {
+   "id": "wr1",
+   "color": "w",
+   "team": "woodland",
+   "type": "r",
+   "startSquare": "a1",
+   "name": "Rook",
+   "emoji": ""
+  },
+  {
+   "id": "wn1",
+   "color": "w",
+   "team": "woodland",
+   "type": "n",
+   "startSquare": "b1",
+   "name": "Knight",
+   "emoji": ""
+  },
+  {
+   "id": "wb1",
+   "color": "w",
+   "team": "woodland",
+   "type": "b",
+   "startSquare": "c1",
+   "name": "Bishop",
+   "emoji": ""
+  },
+  {
+   "id": "wq1",
+   "color": "w",
+   "team": "woodland",
+   "type": "q",
+   "startSquare": "d1",
+   "name": "Queen",
+   "emoji": ""
+  },
+  {
+   "id": "wk1",
+   "color": "w",
+   "team": "woodland",
+   "type": "k",
+   "startSquare": "e1",
+   "name": "King",
+   "emoji": ""
+  },
+  {
+   "id": "wb2",
+   "color": "w",
+   "team": "woodland",
+   "type": "b",
+   "startSquare": "f1",
+   "name": "Bishop",
+   "emoji": ""
+  },
+  {
+   "id": "wn2",
+   "color": "w",
+   "team": "woodland",
+   "type": "n",
+   "startSquare": "g1",
+   "name": "Knight",
+   "emoji": ""
+  },
+  {
+   "id": "wr2",
+   "color": "w",
+   "team": "woodland",
+   "type": "r",
+   "startSquare": "h1",
+   "name": "Rook",
+   "emoji": ""
+  },
+  {
+   "id": "wp1",
+   "color": "w",
+   "team": "woodland",
+   "type": "p",
+   "startSquare": "a2",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "wp2",
+   "color": "w",
+   "team": "woodland",
+   "type": "p",
+   "startSquare": "b2",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "wp3",
+   "color": "w",
+   "team": "woodland",
+   "type": "p",
+   "startSquare": "c2",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "wp4",
+   "color": "w",
+   "team": "woodland",
+   "type": "p",
+   "startSquare": "d2",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "wp5",
+   "color": "w",
+   "team": "woodland",
+   "type": "p",
+   "startSquare": "e2",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "wp6",
+   "color": "w",
+   "team": "woodland",
+   "type": "p",
+   "startSquare": "f2",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "wp7",
+   "color": "w",
+   "team": "woodland",
+   "type": "p",
+   "startSquare": "g2",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "wp8",
+   "color": "w",
+   "team": "woodland",
+   "type": "p",
+   "startSquare": "h2",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "bp1",
+   "color": "b",
+   "team": "misfit",
+   "type": "p",
+   "startSquare": "a7",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "bp2",
+   "color": "b",
+   "team": "misfit",
+   "type": "p",
+   "startSquare": "b7",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "bp3",
+   "color": "b",
+   "team": "misfit",
+   "type": "p",
+   "startSquare": "c7",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "bp4",
+   "color": "b",
+   "team": "misfit",
+   "type": "p",
+   "startSquare": "d7",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "bp5",
+   "color": "b",
+   "team": "misfit",
+   "type": "p",
+   "startSquare": "e7",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "bp6",
+   "color": "b",
+   "team": "misfit",
+   "type": "p",
+   "startSquare": "f7",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "bp7",
+   "color": "b",
+   "team": "misfit",
+   "type": "p",
+   "startSquare": "g7",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "bp8",
+   "color": "b",
+   "team": "misfit",
+   "type": "p",
+   "startSquare": "h7",
+   "name": "Pawn",
+   "emoji": ""
+  },
+  {
+   "id": "br1",
+   "color": "b",
+   "team": "misfit",
+   "type": "r",
+   "startSquare": "a8",
+   "name": "Rook",
+   "emoji": ""
+  },
+  {
+   "id": "bn1",
+   "color": "b",
+   "team": "misfit",
+   "type": "n",
+   "startSquare": "b8",
+   "name": "Knight",
+   "emoji": ""
+  },
+  {
+   "id": "bb1",
+   "color": "b",
+   "team": "misfit",
+   "type": "b",
+   "startSquare": "c8",
+   "name": "Bishop",
+   "emoji": ""
+  },
+  {
+   "id": "bq1",
+   "color": "b",
+   "team": "misfit",
+   "type": "q",
+   "startSquare": "d8",
+   "name": "Queen",
+   "emoji": ""
+  },
+  {
+   "id": "bk1",
+   "color": "b",
+   "team": "misfit",
+   "type": "k",
+   "startSquare": "e8",
+   "name": "King",
+   "emoji": ""
+  },
+  {
+   "id": "bb2",
+   "color": "b",
+   "team": "misfit",
+   "type": "b",
+   "startSquare": "f8",
+   "name": "Bishop",
+   "emoji": ""
+  },
+  {
+   "id": "bn2",
+   "color": "b",
+   "team": "misfit",
+   "type": "n",
+   "startSquare": "g8",
+   "name": "Knight",
+   "emoji": ""
+  },
+  {
+   "id": "br2",
+   "color": "b",
+   "team": "misfit",
+   "type": "r",
+   "startSquare": "h8",
+   "name": "Rook",
+   "emoji": ""
+  }
+ ],
+ "frames": [
+  {
+   "ply": 0,
+   "move": null,
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "d1": "wq1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "c2": "wp3",
+    "d2": "wp4",
+    "e2": "wp5",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "a7": "bp1",
+    "b7": "bp2",
+    "c7": "bp3",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "g7": "bp7",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "c8": "bb1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp3": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     3,
+     2,
+     2,
+     3,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     3,
+     2,
+     2,
+     3,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 0,
+   "onset": 0,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 1,
+   "move": {
+    "san": "e3",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "d1": "wq1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "c2": "wp3",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "e3": "wp5",
+    "a7": "bp1",
+    "b7": "bp2",
+    "c7": "bp3",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "g7": "bp7",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "c8": "bb1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp3": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     3,
+     2,
+     2,
+     3,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     3,
+     2,
+     2,
+     3,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 1,
+   "onset": 1,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 2,
+   "move": {
+    "san": "b6",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "d1": "wq1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "c2": "wp3",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "e3": "wp5",
+    "b6": "bp2",
+    "a7": "bp1",
+    "c7": "bp3",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "g7": "bp7",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "c8": "bb1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp3": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     3,
+     2,
+     2,
+     3,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 2,
+   "onset": 2,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 3,
+   "move": {
+    "san": "Qh5",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "c2": "wp3",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "e3": "wp5",
+    "h5": "wq1",
+    "b6": "bp2",
+    "a7": "bp1",
+    "c7": "bp3",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "g7": "bp7",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "c8": "bb1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp3": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     4,
+     1,
+     1,
+     2
+    ],
+    [
+     2,
+     2,
+     3,
+     2,
+     2,
+     3,
+     2,
+     3
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     -1,
+     2,
+     -1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     2,
+     2,
+     3,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "pond",
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     "pond"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 3,
+   "onset": 3,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 4,
+   "move": {
+    "san": "g6",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "c2": "wp3",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "e3": "wp5",
+    "h5": "wq1",
+    "b6": "bp2",
+    "g6": "bp7",
+    "a7": "bp1",
+    "c7": "bp3",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "c8": "bb1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp3": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     4,
+     1,
+     1,
+     2
+    ],
+    [
+     2,
+     2,
+     3,
+     2,
+     2,
+     3,
+     2,
+     3
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     -1,
+     2,
+     -1,
+     1,
+     1,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     1,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "pond",
+     "",
+     "pond",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 4,
+   "onset": 4,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 5,
+   "move": {
+    "san": "Qb5",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "c2": "wp3",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "e3": "wp5",
+    "b5": "wq1",
+    "b6": "bp2",
+    "g6": "bp7",
+    "a7": "bp1",
+    "c7": "bp3",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "c8": "bb1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp3": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     3,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1,
+     1,
+     1,
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "pond",
+     "",
+     "pond",
+     "",
+     "",
+     "pond",
+     "",
+     "pond"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 5,
+   "onset": 5,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 6,
+   "move": {
+    "san": "c6",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "c2": "wp3",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "e3": "wp5",
+    "b5": "wq1",
+    "b6": "bp2",
+    "c6": "bp3",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "c8": "bb1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp3": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     3,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     -1,
+     -1,
+     -1,
+     -1,
+     1,
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "river",
+     "river",
+     "river",
+     "river",
+     "",
+     "pond",
+     "",
+     "pond"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 6,
+   "onset": 6,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 7,
+   "move": {
+    "san": "Qb3",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "c2": "wp3",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "b3": "wq1",
+    "e3": "wp5",
+    "b6": "bp2",
+    "c6": "bp3",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "c8": "bb1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp3": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     1,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     2,
+     4,
+     3,
+     3,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     -1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 7,
+   "onset": 7,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 8,
+   "move": {
+    "san": "b5",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "c2": "wp3",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "b3": "wq1",
+    "e3": "wp5",
+    "b5": "bp2",
+    "c6": "bp3",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "c8": "bb1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp3": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     1,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     2,
+     4,
+     3,
+     3,
+     2,
+     2,
+     2
+    ],
+    [
+     -1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     -1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 8,
+   "onset": 8,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 9,
+   "move": {
+    "san": "c4",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "b3": "wq1",
+    "e3": "wp5",
+    "c4": "wp3",
+    "b5": "bp2",
+    "c6": "bp3",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "c8": "bb1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp3": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     1,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     1,
+     4,
+     2,
+     3,
+     2,
+     2,
+     2
+    ],
+    [
+     -1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     -1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 9,
+   "onset": 9,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 10,
+   "move": {
+    "san": "bxc4",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "b3": "wq1",
+    "e3": "wp5",
+    "c4": "bp2",
+    "c6": "bp3",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "c8": "bb1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     1,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     -1,
+     4,
+     1,
+     3,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     -1,
+     1,
+     4,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 10,
+   "onset": 10,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 11,
+   "move": {
+    "san": "Qxc4",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "e3": "wp5",
+    "c4": "wq1",
+    "c6": "bp3",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "c8": "bb1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     2,
+     1,
+     1,
+     3,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     4,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     1,
+     -1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     1,
+     1,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     4,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 11,
+   "onset": 11,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 12,
+   "move": {
+    "san": "Ba6",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "e3": "wp5",
+    "c4": "wq1",
+    "a6": "bb1",
+    "c6": "bp3",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     2,
+     1,
+     1,
+     3,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     4,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -1,
+     2,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     -1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     -1,
+     2,
+     1,
+     1,
+     1,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     4,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 12,
+   "onset": 12,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 13,
+   "move": {
+    "san": "Qe4",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "e3": "wp5",
+    "e4": "wq1",
+    "a6": "bb1",
+    "c6": "bp3",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "e7": "bp5",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     2,
+     1,
+     1,
+     1,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     2,
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     3,
+     1,
+     3,
+     3,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     -1,
+     1,
+     -1,
+     1,
+     1
+    ],
+    [
+     -1,
+     2,
+     1,
+     1,
+     1,
+     2,
+     1,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 13,
+   "onset": 13,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 14,
+   "move": {
+    "san": "e6",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "d2": "wp4",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "e3": "wp5",
+    "e4": "wq1",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     2,
+     1,
+     1,
+     1,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     2,
+     1,
+     2,
+     1
+    ],
+    [
+     1,
+     1,
+     3,
+     1,
+     3,
+     3,
+     2,
+     2
+    ],
+    [
+     1,
+     -1,
+     1,
+     2,
+     1,
+     2,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     -1,
+     2,
+     1,
+     1,
+     1,
+     2,
+     1,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 14,
+   "onset": 14,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 15,
+   "move": {
+    "san": "d3",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e3": "wp5",
+    "e4": "wq1",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "bn2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     3,
+     1,
+     2,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     3,
+     3,
+     2,
+     2
+    ],
+    [
+     1,
+     -1,
+     1,
+     2,
+     1,
+     2,
+     1,
+     -1
+    ],
+    [
+     1,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     1,
+     1,
+     2,
+     1,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 15,
+   "onset": 15,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 16,
+   "move": {
+    "san": "Nf6",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e3": "wp5",
+    "e4": "wq1",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "f6": "bn2",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     3,
+     1,
+     2,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     3,
+     3,
+     2,
+     2
+    ],
+    [
+     1,
+     -1,
+     1,
+     2,
+     -1,
+     2,
+     -1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     2,
+     1,
+     1,
+     1,
+     2
+    ],
+    [
+     1,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     4,
+     3,
+     1,
+     1,
+     2
+    ],
+    [
+     1,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "pond",
+     "",
+     "pond",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 16,
+   "onset": 16,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 17,
+   "move": {
+    "san": "Qe5",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e3": "wp5",
+    "e5": "wq1",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "f6": "bn2",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     3,
+     3,
+     1,
+     1,
+     2
+    ],
+    [
+     1,
+     1,
+     3,
+     -1,
+     3,
+     2,
+     3,
+     2
+    ],
+    [
+     1,
+     1,
+     -1,
+     2,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     -1,
+     1,
+     -1,
+     2,
+     1
+    ],
+    [
+     1,
+     1,
+     -1,
+     4,
+     3,
+     1,
+     1,
+     2
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "river",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "river",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "pond",
+     "",
+     "river",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "river",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "river",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 17,
+   "onset": 17,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 18,
+   "move": {
+    "san": "Ng4",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e3": "wp5",
+    "g4": "bn2",
+    "e5": "wq1",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "h8": "br2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "br2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     3,
+     3,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     3,
+     -1,
+     2,
+     2,
+     3,
+     2
+    ],
+    [
+     1,
+     1,
+     -1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1,
+     1,
+     1,
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     2,
+     2,
+     -1,
+     1,
+     1,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -1,
+     3,
+     3,
+     1,
+     -1,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     1,
+     2,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "river",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "river",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "pond",
+     "",
+     "river",
+     "",
+     "",
+     "",
+     "creek",
+     "creek"
+    ],
+    [
+     "",
+     "",
+     "",
+     "river",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "river",
+     "",
+     "",
+     "",
+     "pond",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 18,
+   "onset": 18,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 19,
+   "move": {
+    "san": "Qxh8",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e3": "wp5",
+    "g4": "bn2",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "d8": "bq1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "h8": "wq1"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     3,
+     3,
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     3,
+     -1,
+     1,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -1,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     2,
+     -1,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     3,
+     1,
+     -1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     1,
+     1,
+     -1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     "pond"
+    ],
+    [
+     "",
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "creek",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "creek",
+     "",
+     ""
+    ]
+   ],
+   "beat": 19,
+   "onset": 19,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 20,
+   "move": {
+    "san": "Qf6",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e3": "wp5",
+    "g4": "bn2",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "f6": "bq1",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "h8": "wq1"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     1,
+     3,
+     3,
+     1,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1,
+     -2,
+     1,
+     1,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -2,
+     -2,
+     1,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     2,
+     2,
+     3,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     3,
+     -1,
+     3,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     3,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     -1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond"
+    ],
+    [
+     "",
+     "",
+     "",
+     "lake",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "lake",
+     "lake",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ]
+   ],
+   "beat": 20,
+   "onset": 20,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 21,
+   "move": {
+    "san": "Qg8",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e3": "wp5",
+    "g4": "bn2",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "f6": "bq1",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "wq1"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     1,
+     3,
+     3,
+     1,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1,
+     -2,
+     1,
+     1,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -2,
+     -2,
+     1,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     2,
+     2,
+     3,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     3,
+     1,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     -1,
+     1,
+     -1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond"
+    ],
+    [
+     "",
+     "",
+     "",
+     "lake",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "lake",
+     "lake",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     "pond"
+    ]
+   ],
+   "beat": 21,
+   "onset": 21,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 22,
+   "move": {
+    "san": "Nh6",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e3": "wp5",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "f6": "bq1",
+    "g6": "bp7",
+    "h6": "bn2",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "h7": "bp8",
+    "a8": "br1",
+    "b8": "bn1",
+    "e8": "bk1",
+    "f8": "bb2",
+    "g8": "wq1"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp8": {
+     "role": "defender",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     1,
+     3,
+     3,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     -2,
+     2,
+     1,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -2,
+     -2,
+     1,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     2,
+     1,
+     4,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     3,
+     1,
+     2,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     3,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     -1,
+     1,
+     -1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "lake",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "lake",
+     "lake",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     "pond"
+    ]
+   ],
+   "beat": 22,
+   "onset": 22,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 23,
+   "move": {
+    "san": "Qxh7",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e3": "wp5",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "f6": "bq1",
+    "g6": "bp7",
+    "h6": "bn2",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "h7": "wq1",
+    "a8": "br1",
+    "b8": "bn1",
+    "e8": "bk1",
+    "f8": "bb2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     1,
+     3,
+     3,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     -2,
+     2,
+     1,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -2,
+     -2,
+     1,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     2,
+     1,
+     4,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     3,
+     1,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     3,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     1,
+     -1,
+     -1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "lake",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "lake",
+     "lake",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "creek",
+     "creek"
+    ]
+   ],
+   "beat": 23,
+   "onset": 23,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 24,
+   "move": {
+    "san": "Qg7",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e3": "wp5",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "g6": "bp7",
+    "h6": "bn2",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "g7": "bq1",
+    "h7": "wq1",
+    "a8": "br1",
+    "b8": "bn1",
+    "e8": "bk1",
+    "f8": "bb2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     1,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     -2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -2,
+     -2,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     2,
+     1,
+     3,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     2,
+     1,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     2,
+     3,
+     -1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     2,
+     1,
+     -1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "lake",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "lake",
+     "lake",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "river"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "river",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "river"
+    ]
+   ],
+   "beat": 24,
+   "onset": 24,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 25,
+   "move": {
+    "san": "Qxg7",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e3": "wp5",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "g6": "bp7",
+    "h6": "bn2",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "g7": "wq1",
+    "a8": "br1",
+    "b8": "bn1",
+    "e8": "bk1",
+    "f8": "bb2"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wq1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "attacker",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     3,
+     -1,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -1,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     2,
+     1,
+     3,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     2,
+     1,
+     -1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     2,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     -1,
+     -1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "creek",
+     "creek",
+     ""
+    ]
+   ],
+   "beat": 25,
+   "onset": 25,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 26,
+   "move": {
+    "san": "Bxg7",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e3": "wp5",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "g6": "bp7",
+    "h6": "bn2",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "g7": "bb2",
+    "a8": "br1",
+    "b8": "bn1",
+    "e8": "bk1"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     1,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     1,
+     1,
+     -2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -2,
+     -2,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     2,
+     1,
+     3,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     2,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     2,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "lake",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "lake",
+     "lake",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 26,
+   "onset": 26,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 27,
+   "move": {
+    "san": "e4",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e4": "wp5",
+    "a6": "bb1",
+    "c6": "bp3",
+    "e6": "bp5",
+    "g6": "bp7",
+    "h6": "bn2",
+    "a7": "bp1",
+    "d7": "bp4",
+    "f7": "bp6",
+    "g7": "bb2",
+    "a8": "br1",
+    "b8": "bn1",
+    "e8": "bk1"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     1,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     1,
+     1,
+     -1,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     1,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     2,
+     1,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     2,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 27,
+   "onset": 27,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 28,
+   "move": {
+    "san": "d6",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "c1": "wb1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e4": "wp5",
+    "a6": "bb1",
+    "c6": "bp3",
+    "d6": "bp4",
+    "e6": "bp5",
+    "g6": "bp7",
+    "h6": "bn2",
+    "a7": "bp1",
+    "f7": "bp6",
+    "g7": "bb2",
+    "a8": "br1",
+    "b8": "bn1",
+    "e8": "bk1"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bn2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     1,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     1,
+     1,
+     -1,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     1,
+     2,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     2,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "pond",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 28,
+   "onset": 28,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 29,
+   "move": {
+    "san": "Bxh6",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e4": "wp5",
+    "a6": "bb1",
+    "c6": "bp3",
+    "d6": "bp4",
+    "e6": "bp5",
+    "g6": "bp7",
+    "h6": "wb1",
+    "a7": "bp1",
+    "f7": "bp6",
+    "g7": "bb2",
+    "a8": "br1",
+    "b8": "bn1",
+    "e8": "bk1"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     1,
+     1,
+     -1,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     1,
+     2,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     2,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 29,
+   "onset": 29,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 30,
+   "move": {
+    "san": "Nd7",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e4": "wp5",
+    "a6": "bb1",
+    "c6": "bp3",
+    "d6": "bp4",
+    "e6": "bp5",
+    "g6": "bp7",
+    "h6": "wb1",
+    "a7": "bp1",
+    "d7": "bn1",
+    "f7": "bp6",
+    "g7": "bb2",
+    "a8": "br1",
+    "e8": "bk1"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bb2": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     1,
+     1,
+     -1,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     1,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     1,
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     2,
+     1,
+     3,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 30,
+   "onset": 30,
+   "coherence": 1,
+   "advantage": 0
+  },
+  {
+   "ply": 31,
+   "move": {
+    "san": "Bxg7",
+    "from": null,
+    "to": null,
+    "moverId": null
+   },
+   "placement": {
+    "a1": "wr1",
+    "b1": "wn1",
+    "e1": "wk1",
+    "f1": "wb2",
+    "g1": "wn2",
+    "h1": "wr2",
+    "a2": "wp1",
+    "b2": "wp2",
+    "f2": "wp6",
+    "g2": "wp7",
+    "h2": "wp8",
+    "d3": "wp4",
+    "e4": "wp5",
+    "a6": "bb1",
+    "c6": "bp3",
+    "d6": "bp4",
+    "e6": "bp5",
+    "g6": "bp7",
+    "a7": "bp1",
+    "d7": "bn1",
+    "f7": "bp6",
+    "g7": "wb1",
+    "a8": "br1",
+    "e8": "bk1"
+   },
+   "roles": {
+    "wr1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wk1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wn2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wr2": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp2": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp6": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp8": {
+     "role": "noise",
+     "strength": 1
+    },
+    "wp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "wp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bb1": {
+     "role": "attacker",
+     "strength": 1
+    },
+    "bp3": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp4": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp5": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp7": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bp1": {
+     "role": "noise",
+     "strength": 1
+    },
+    "bn1": {
+     "role": "controller",
+     "strength": 1
+    },
+    "bp6": {
+     "role": "defender",
+     "strength": 1
+    },
+    "wb1": {
+     "role": "runner",
+     "strength": 1
+    },
+    "br1": {
+     "role": "defender",
+     "strength": 1
+    },
+    "bk1": {
+     "role": "defender",
+     "strength": 1
+    }
+   },
+   "height": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     1,
+     3,
+     -1,
+     1,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     -1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     1,
+     1,
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "water": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "creek",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "pond",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "beat": 31,
+   "onset": 31,
+   "coherence": 1,
+   "advantage": 0
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+node_modules/
+*.log
+
+# generated, regenerable with tools/build.js — text datapack is committed, the zip is not
+*.zip
